@@ -11,6 +11,9 @@ keymaps = [
   (util.mkKeymap "n" "ö" "n")
   (util.mkKeymap "n" "ü" "r")
   (util.mkKeymap "n" "ß" "s")
+
+
+  (util.mkKeymap' "n" "<leader>tb" ":lua vim.lsp.buf.format()<CR>" "Format the current buffer/file")
 ];
 };
 }
