@@ -1,7 +1,7 @@
 {
 vim.options = {
-  shiftwidth = 3;
-  tabstop = 3;
+  shiftwidth = 2;
+  tabstop = 2;
 };
 
 

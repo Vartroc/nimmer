@@ -14,7 +14,11 @@
           inherit (nixpkgs.legacyPackages."x86_64-linux") pkgs;
           modules = [
 	    ./default.nix   
-	   ];
+	  ];
+	  extraSpecialArgs = {
+	    # Inputs is seemingly reserved, though the docs don't show it - LilleAila nvf-config
+	    inputs' = inputs;
+	  };
         });
     in {
       # Set the default package to the wrapped instance of Neovim.

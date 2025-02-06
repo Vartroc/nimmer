@@ -3,8 +3,8 @@ vim = {
   telescope = {
     enable = true;
     mappings = {
-      findFiles = "<leader>cc";
-      findProjects = "<leader>cp";
+      findFiles = "<leader>tt";
+      findProjects = "<leader>tp";
 
    }; 
 
