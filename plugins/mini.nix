@@ -19,6 +19,7 @@
       notify.enable = true;
       animate.enable = false;
       indentscope.enable = true;
+      starter.enable = true;
 
     };
     keymaps = [
