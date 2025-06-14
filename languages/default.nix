@@ -7,6 +7,8 @@
     ./python.nix
     ./rust.nix
     ./nix.nix
+    ./openscad.nix
+    ./openscad-enable.nix
   ];
 
   vim = {
