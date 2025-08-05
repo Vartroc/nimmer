@@ -7,19 +7,19 @@
     ./python.nix
     ./rust.nix
     ./nix.nix
-    ./openscad.nix
-    ./openscad-enable.nix
+    # ./openscad.nix
+    # ./openscad-enable.nix
   ];
 
   vim = {
     languages = {
-      enableLSP = true;
       enableFormat = true;
       enableTreesitter = true;
       # enableExtraDiagnostics = true;
       # enableDAP = true;
     };
     lsp = {
+      enable = true;
       formatOnSave = true;
       # trouble.enable = true;
       # lspSignature.enable = true;
